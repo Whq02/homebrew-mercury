@@ -1,23 +1,26 @@
 # Homebrew formula for Mercury — the tap is github.com/Whq02/homebrew-mercury
 #   brew install Whq02/mercury/mercury
-# The sha256 values come from the release's SHA256SUMS.txt (fill-sha.sh).
+# The sha256 values come from the release's SHA256SUMS.txt.
 class Mercury < Formula
   desc "Terminal harness for software development"
   homepage "https://mercury-cli.ai"
-  version "1.0.0-beta.2"
+  version "1.0.0-beta.3"
   license "SEE LICENSE IN https://github.com/Whq02/MercuryCLI/blob/main/LICENSE.md"
 
   on_macos do
     on_arm do
-      url "https://github.com/Whq02/MercuryCLI/releases/download/v1.0.0-beta.2/mercury-v1.0.0-beta.2-macos-arm64.tar.gz"
-      sha256 "6b663e1dd8af0ff544d75c5c5976aead9636d63f8e81718efcac836c01e589b9"
+      url "https://github.com/Whq02/MercuryCLI/releases/download/v1.0.0-beta.3/mercury-v1.0.0-beta.3-macos-arm64.tar.gz"
+      sha256 "9afe0f1199dd2536345516def00c515ab38b8c8538e168bf811c0e6c5575c835"
     end
-    # No Intel Mac build in this release.
+    on_intel do
+      url "https://github.com/Whq02/MercuryCLI/releases/download/v1.0.0-beta.3/mercury-v1.0.0-beta.3-macos-x64.tar.gz"
+      sha256 "a042fa58b365bdd176e924ec36dca81397a2eefce03fff07a30e2d3ee84dc0a2"
+    end
   end
   on_linux do
     on_intel do
-      url "https://github.com/Whq02/MercuryCLI/releases/download/v1.0.0-beta.2/mercury-v1.0.0-beta.2-linux-x64.tar.gz"
-      sha256 "ac5898eca057a344cc308f2a2f826853712f5d31aadab9d1d593b6c73eba2185"
+      url "https://github.com/Whq02/MercuryCLI/releases/download/v1.0.0-beta.3/mercury-v1.0.0-beta.3-linux-x64.tar.gz"
+      sha256 "e65304d9a375ab6d3f46184aee331852c4528948b1beda8cda907b8f71b49178"
     end
   end
 
