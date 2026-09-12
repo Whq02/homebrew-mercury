@@ -4,23 +4,23 @@
 class Mercury < Formula
   desc "Terminal harness for software development"
   homepage "https://mercury-cli.ai"
-  version "1.0.0-beta.6"
+  version "1.0.0-beta.7"
   license "SEE LICENSE IN https://github.com/Whq02/MercuryCLI/blob/main/LICENSE.md"
 
   on_macos do
     on_arm do
-      url "https://github.com/Whq02/MercuryCLI/releases/download/v1.0.0-beta.6/mercury-v1.0.0-beta.6-macos-arm64.tar.gz"
-      sha256 "e5479ff3ae88918fd90080bd48b7d2381e91eaf142b09037e9f5d759a1e99540"
+      url "https://github.com/Whq02/MercuryCLI/releases/download/v1.0.0-beta.7/mercury-v1.0.0-beta.7-macos-arm64.tar.gz"
+      sha256 "55ffcd5006ff607dc6cb034f4f7752564ccd2eff1c1320206d12de642ea56c76"
     end
     on_intel do
-      url "https://github.com/Whq02/MercuryCLI/releases/download/v1.0.0-beta.6/mercury-v1.0.0-beta.6-macos-x64.tar.gz"
-      sha256 "328cce6651e21e720d0326351cf8ef45aa6e1e5b59383345c990f82f90403455"
+      url "https://github.com/Whq02/MercuryCLI/releases/download/v1.0.0-beta.7/mercury-v1.0.0-beta.7-macos-x64.tar.gz"
+      sha256 "e6657916b340b174570d37af6b02fc8d12503555a840bcce4d2e6f17f32731c7"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/Whq02/MercuryCLI/releases/download/v1.0.0-beta.6/mercury-v1.0.0-beta.6-linux-x64.tar.gz"
-      sha256 "0764c75fd848abb72bd1a5c7e5c9bef3d31016dcf9e89bca164460ffb8670bfe"
+      url "https://github.com/Whq02/MercuryCLI/releases/download/v1.0.0-beta.7/mercury-v1.0.0-beta.7-linux-x64.tar.gz"
+      sha256 "1f2a274fa623c4ad0284eaad810909b1e85864c25885ecd09d56a5c257e79628"
     end
   end
 
