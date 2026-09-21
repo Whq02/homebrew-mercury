@@ -2,25 +2,25 @@
 #   brew install Whq02/mercury/mercury
 # The sha256 values come from the release's SHA256SUMS.txt.
 class Mercury < Formula
-  desc "Terminal harness for software development"
+  desc "AI coding sessions in your terminal, on the providers you choose"
   homepage "https://mercury-cli.ai"
-  version "1.0.0-beta.15"
+  version "1.0.0-beta.16"
   license "SEE LICENSE IN https://github.com/Whq02/MercuryCLI/blob/main/LICENSE.md"
 
   on_macos do
     on_arm do
-      url "https://github.com/Whq02/MercuryCLI/releases/download/v1.0.0-beta.15/mercury-v1.0.0-beta.15-macos-arm64.tar.gz"
-      sha256 "d777980e71d09c923d1d491bda5a07066c49229cd8cfd369f9d624c20d563bf1"
+      url "https://github.com/Whq02/MercuryCLI/releases/download/v1.0.0-beta.16/mercury-v1.0.0-beta.16-macos-arm64.tar.gz"
+      sha256 "02e0422f15287b344627dc612cc5dacdc29cb1d3fc743287d79598a13ffc48d6"
     end
     on_intel do
-      url "https://github.com/Whq02/MercuryCLI/releases/download/v1.0.0-beta.15/mercury-v1.0.0-beta.15-macos-x64.tar.gz"
-      sha256 "4bfb200b361363e7acbae65f47706acd7050864290ef5ef9f224718b6ccdfc14"
+      url "https://github.com/Whq02/MercuryCLI/releases/download/v1.0.0-beta.16/mercury-v1.0.0-beta.16-macos-x64.tar.gz"
+      sha256 "a349e8d2f14f7327bd8f4039ff8c397db457f088467a99e13e5ae85725802dfe"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/Whq02/MercuryCLI/releases/download/v1.0.0-beta.15/mercury-v1.0.0-beta.15-linux-x64.tar.gz"
-      sha256 "fba59477d61675633fc06ee1f381a38daf033483bced5d8ac1e17793b8a211f3"
+      url "https://github.com/Whq02/MercuryCLI/releases/download/v1.0.0-beta.16/mercury-v1.0.0-beta.16-linux-x64.tar.gz"
+      sha256 "ab9be0af310ff537d375e15c7c982ae4c821d5697fdd64141f6d98b0bc83a51c"
     end
   end
 
