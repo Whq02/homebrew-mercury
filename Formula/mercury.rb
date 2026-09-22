@@ -4,23 +4,23 @@
 class Mercury < Formula
   desc "AI coding sessions in your terminal, on the providers you choose"
   homepage "https://mercury-cli.ai"
-  version "1.0.0-beta.16"
+  version "1.0.0-beta.17"
   license "SEE LICENSE IN https://github.com/Whq02/MercuryCLI/blob/main/LICENSE.md"
 
   on_macos do
     on_arm do
-      url "https://github.com/Whq02/MercuryCLI/releases/download/v1.0.0-beta.16/mercury-v1.0.0-beta.16-macos-arm64.tar.gz"
-      sha256 "02e0422f15287b344627dc612cc5dacdc29cb1d3fc743287d79598a13ffc48d6"
+      url "https://github.com/Whq02/MercuryCLI/releases/download/v1.0.0-beta.17/mercury-v1.0.0-beta.17-macos-arm64.tar.gz"
+      sha256 "448f2828f9fb45cd9861ce463c77f422b57d5982a24caa5924696623d37967c8"
     end
     on_intel do
-      url "https://github.com/Whq02/MercuryCLI/releases/download/v1.0.0-beta.16/mercury-v1.0.0-beta.16-macos-x64.tar.gz"
-      sha256 "a349e8d2f14f7327bd8f4039ff8c397db457f088467a99e13e5ae85725802dfe"
+      url "https://github.com/Whq02/MercuryCLI/releases/download/v1.0.0-beta.17/mercury-v1.0.0-beta.17-macos-x64.tar.gz"
+      sha256 "1aeba9142fe80494eba6917b6324abdfaf7b5a010a1039a0588efcec2e27696b"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/Whq02/MercuryCLI/releases/download/v1.0.0-beta.16/mercury-v1.0.0-beta.16-linux-x64.tar.gz"
-      sha256 "ab9be0af310ff537d375e15c7c982ae4c821d5697fdd64141f6d98b0bc83a51c"
+      url "https://github.com/Whq02/MercuryCLI/releases/download/v1.0.0-beta.17/mercury-v1.0.0-beta.17-linux-x64.tar.gz"
+      sha256 "b9f36f18ebb070cf101adff247691e6f55dea11ca28b6733f617f22d9c35607f"
     end
   end
 
